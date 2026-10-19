@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Board Base Background -->
+    <path
+        android:fillColor="#2D2244"
+        android:pathData="M30,26 L78,26 A8,8 0 0,1 86,34 L86,82 A8,8 0 0,1 78,90 L30,90 A8,8 0 0,1 22,82 L22,34 A8,8 0 0,1 30,26 Z" />
+
+    <!-- Top Left Tile (2) -->
+    <path
+        android:fillColor="#EEE4DA"
+        android:pathData="M31,31 L49,31 A4,4 0 0,1 53,35 L53,53 A4,4 0 0,1 49,57 L31,57 A4,4 0 0,1 27,53 L27,35 A4,4 0 0,1 31,31 Z" />
+    <path
+        android:fillColor="#776E65"
+        android:pathData="M38,39 C38,37.3 39.3,36 41,36 C42.7,36 44,37.3 44,39 C44,40.5 42,42.5 39,45 L44,45 L44,47 L37,47 L37,45 C40,42 42,40.5 42,39 C42,38.4 41.6,38 41,38 C40.4,38 40,38.4 40,39 L38,39 Z" />
+
+    <!-- Top Right Tile (4) -->
+    <path
+        android:fillColor="#EDE0C8"
+        android:pathData="M59,31 L77,31 A4,4 0 0,1 81,35 L81,53 A4,4 0 0,1 77,57 L59,57 A4,4 0 0,1 55,53 L55,35 A4,4 0 0,1 59,31 Z" />
+    <path
+        android:fillColor="#776E65"
+        android:pathData="M70,36 L70,42 L72,42 L72,44 L70,44 L70,47 L68,47 L68,44 L64,44 L64,42 L68,36 L70,36 Z M68,39 L66,42 L68,42 L68,39 Z" />
+
+    <!-- Bottom Left Tile (8) -->
+    <path
+        android:fillColor="#F2B179"
+        android:pathData="M31,59 L49,59 A4,4 0 0,1 53,63 L53,81 A4,4 0 0,1 49,85 L31,85 A4,4 0 0,1 27,81 L27,63 A4,4 0 0,1 31,59 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,64 C41.7,64 43,65.3 43,67 C43,68 42.4,68.8 41.5,69.2 C42.6,69.6 43.5,70.6 43.5,71.8 C43.5,73.5 42,75 40,75 C38,75 36.5,73.5 36.5,71.8 C36.5,70.6 37.4,69.6 38.5,69.2 C37.6,68.8 37,68 37,67 C37,65.3 38.3,64 40,64 Z M40,66 C39.4,66 39,66.4 39,67 C39,67.6 39.4,68 40,68 C40.6,68 41,67.6 41,67 C41,66.4 40.6,66 40,66 Z M40,70 C39.2,70 38.5,70.8 38.5,71.8 C38.5,72.7 39.2,73.3 40,73.3 C40.8,73.3 41.5,72.7 41.5,71.8 C41.5,70.8 40.8,70 40,70 Z" />
+
+    <!-- Bottom Right Tile (2048 Golden) -->
+    <path
+        android:fillColor="#EDC22E"
+        android:pathData="M59,59 L77,59 A4,4 0 0,1 81,63 L81,81 A4,4 0 0,1 77,85 L59,85 A4,4 0 0,1 55,81 L55,63 A4,4 0 0,1 59,59 Z" />
+    <!-- Crown / Star on 2048 tile -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M68,64 L70,68 L74,68.5 L71,71.5 L72,75.5 L68,73 L64,75.5 L65,71.5 L62,68.5 L66,68 Z" />
+</vector>

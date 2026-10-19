@@ -1,0 +1,6 @@
+{
+  "name": "2048 Online",
+  "description": "2048 線上對戰與經典益智遊戲，支援 1v1 即時對抗賽、每日挑戰、全球天梯排行榜與棋盤主題風格。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
